@@ -6,6 +6,14 @@ Projeto desenvolvido para praticar novas habilidades de HTML &amp; CSS
 
 # Projeto 
 <p> Link:  https://danielresende23.github.io/Login-Page/ </p>
+<h1 align="center">
+  <img alt="Starbucks" title="#Starbucks" src="./images/20220313_144506.gif"/>
+  
+ 
+ 
+
+</h1>
+
 
 
 </h1>
