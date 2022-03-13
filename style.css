@@ -1,0 +1,196 @@
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        *:after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 45%, rgba(229, 229, 229, 0.41) 45%, rgba(229, 229, 229, 0.41) 100%);
+        }
+        
+        header {
+            padding: 86px 86px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            color: #3751FE;
+        }
+        
+        header ul {
+            position: relative;
+            display: flex;
+        }
+        
+        header ul li {
+            list-style: none;
+        }
+        
+        header ul li a {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            display: flex;
+            gap: 58px;
+            margin-right: 106px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        
+        header ul li a:after {
+            content: "";
+            position: absolute;
+            background-color: #3751FE;
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+        }
+        
+        header ul li a:hover:after {
+            width: 100%;
+        }
+        
+        main {
+            padding: 0px 86px;
+        }
+        
+        main h1 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            color: #3751FE;
+        }
+        
+        main p {
+            padding: 25px 0px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+        .imagem {
+            position: absolute;
+            width: 839px;
+            height: 428px;
+            left: 598px;
+            top: 210px;
+        }
+        
+        .input {
+            display: flex;
+            width: 460px;
+            height: 74px;
+            justify-content: space-between;
+            align-items: center;
+            text-align-last: center;
+            padding: 35px 27px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #3751FE;
+        }
+        
+        input::placeholder {
+            position: absolute;
+            left: 4.87%;
+            right: 74.19%;
+            top: 16.22%;
+            bottom: 55.41%;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: rgba(0, 0, 0, 0.61);
+        }
+        
+        .EsqueceuSenha {
+            position: relative;
+            padding: 0px 0px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            gap: 200px;
+        }
+        
+        button {
+            width: 222px;
+            height: 54px;
+            left: 85px;
+            top: 714px;
+            background: #ffffff;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #3751FE;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 1px solid #3751FE;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #3751FE;
+            color: #ffffff;
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+        }
+        
+        .opcaoDeLogin {
+            display: flex;
+            align-self: center;
+            flex-direction: row;
+            gap: 75px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #3751FE;
+        }
+        
+        .opcaoDeLogin:hover {
+            font-weight: bold;
+            color: #000000;
+        }
+        
+        .olho {
+            cursor: pointer;
+            left: 160px;
+            position: absolute;
+            width: 25px;
+            top: 495px;
+            left: 505px;
+        }
