@@ -1,4 +1,4 @@
-               @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +13,7 @@
         }
         
         body {
-            background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 45%, rgba(229, 229, 229, 0.41) 45%, rgba(229, 229, 229, 0.41) 100%);
+            background: #ffffff;
         }
         
         header {
@@ -46,8 +46,7 @@
             display: inline-block;
             text-decoration: none;
             display: flex;
-            gap: 58px;
-            margin-right: 106px;
+            margin-right: 60px;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -95,10 +94,10 @@
         
         .imagem {
             position: absolute;
-            width: 839px;
+            width: 750px;
             height: 428px;
-            left: 598px;
-            top: 210px;
+            left: 628px;
+            top: 171px;
         }
         
         .input {
