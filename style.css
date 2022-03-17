@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+               @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
         * {
             margin: 0;
             padding: 0;
@@ -192,19 +192,5 @@
             position: absolute;
             width: 25px;
             top: 391px;
-            left: 505px;
-        }
-        
-        .opcaoDeLogin:hover {
-            font-weight: bold;
-            color: #000000;
-        }
-        
-        .olho {
-            cursor: pointer;
-            left: 160px;
-            position: absolute;
-            width: 25px;
-            top: 495px;
             left: 505px;
         }
