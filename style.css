@@ -17,7 +17,7 @@
         }
         
         header {
-            padding: 86px 86px;
+            padding: 34px 86px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -155,7 +155,7 @@
             font-size: 18px;
             line-height: 21px;
             color: #3751FE;
-            margin-top: 20px;
+            margin-top: 50px;
             margin-bottom: 30px;
             border: 1px solid #3751FE;
             box-sizing: border-box;
@@ -165,7 +165,7 @@
         button:hover {
             background: #3751FE;
             color: #ffffff;
-            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 10px #3751FE, 0 0 40px #3751FE, 0 0 80px #3751FE;
         }
         
         .opcaoDeLogin {
@@ -179,6 +179,20 @@
             font-size: 18px;
             line-height: 21px;
             color: #3751FE;
+        }
+        
+        .opcaoDeLogin:hover {
+            font-weight: bold;
+            color: #000000;
+        }
+        
+        .olho {
+            cursor: pointer;
+            left: 160px;
+            position: absolute;
+            width: 25px;
+            top: 391px;
+            left: 505px;
         }
         
         .opcaoDeLogin:hover {
