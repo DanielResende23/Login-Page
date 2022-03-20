@@ -29,7 +29,7 @@
             font-weight: 700;
             font-size: 30px;
             line-height: 35px;
-            color: #3751FE;
+            color: #FF4F5A;
         }
         
         header ul {
@@ -58,7 +58,7 @@
         header ul li a:after {
             content: "";
             position: absolute;
-            background-color: #3751FE;
+            background-color: #FF4F5A;
             height: 3px;
             width: 0;
             left: 0;
@@ -75,29 +75,20 @@
         }
         
         main h1 {
+            padding: 25px 0px;
             font-family: 'Open Sans';
             font-style: normal;
             font-weight: 700;
             font-size: 36px;
-            color: #3751FE;
-        }
-        
-        main p {
-            padding: 25px 0px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 21px;
-            color: rgba(0, 0, 0, 0.6);
+            color: #FF4F5A;
         }
         
         .imagem {
             position: absolute;
-            width: 750px;
-            height: 428px;
-            left: 628px;
-            top: 171px;
+            width: 500px;
+            height: 500px;
+            left: 746px;
+            top: 204px;
         }
         
         .input {
@@ -113,7 +104,7 @@
             font-weight: 500;
             font-size: 18px;
             line-height: 21px;
-            color: #3751FE;
+            color: #000000;
         }
         
         input::placeholder {
@@ -153,18 +144,17 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
-            color: #3751FE;
+            color: #FF4F5A;
             margin-top: 50px;
             margin-bottom: 30px;
-            border: 1px solid #3751FE;
+            border: 1px solid #FF4F5A;
             box-sizing: border-box;
             cursor: pointer;
         }
         
         button:hover {
-            background: #3751FE;
+            background: #FF4F5A;
             color: #ffffff;
-            box-shadow: 0 0 10px #3751FE, 0 0 40px #3751FE, 0 0 80px #3751FE;
         }
         
         .opcaoDeLogin {
@@ -177,10 +167,10 @@
             font-weight: 700;
             font-size: 18px;
             line-height: 21px;
-            color: #3751FE;
+            color: #FF4F5A;
         }
         
-        .opcaoDeLogin:hover {
+        .opcaoDeLogin a:hover {
             font-weight: bold;
             color: #000000;
         }
@@ -190,6 +180,6 @@
             left: 160px;
             position: absolute;
             width: 25px;
-            top: 391px;
+            top: 369px;
             left: 505px;
         }
