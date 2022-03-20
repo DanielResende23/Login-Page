@@ -7,7 +7,7 @@ Projeto desenvolvido com o objetivo de aprender e aperfeiçoamento conhecimento 
 # Projeto 
 <p> Link:  https://danielresende23.github.io/Login-Page/ </p>
 <h1 align="center">
-  <img alt="" title="" src="./Imagem/20220313_144506.gif"/>
+  <img alt="" title="" src="./Imagem//>
   
  
  
